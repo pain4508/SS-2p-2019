@@ -10,7 +10,7 @@ router.use('/things',thingsApi);
 
 
 router.get('/',(req, res, next)=>{
-    res.status(200).json({"msg":"Things Version 1.0"})
+    res.status(200).json({"msg":"Things Version 1.0 prueba"})
 })
 //router.get('/', (req, res, next)=>{
     //req toda la peticion del cliente
